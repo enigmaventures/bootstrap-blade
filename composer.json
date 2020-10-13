@@ -1,0 +1,48 @@
+{
+    "name": "enigma/bootstrap-blade",
+    "description": "Bootstrap as Blade view components!",
+    "type": "library",
+    "keywords": [
+        "bootstrap",
+        "blade components",
+        "bootstrap blade"
+    ],
+    "homepage": "https://github.com/enigma/bootstrap-blade",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/enigma/bootstrap-blade/issues",
+        "source": "https://github.com/enigma/bootstrap-blade"
+    },
+    "authors": [
+        {
+            "name": "Reyber Ian E. Yturiaga",
+            "email": "reyberyturiaga@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^8.0",
+        "illuminate/view": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Enigma\\BootstrapBlade\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Enigma\\BootstrapBlade\\BootstrapBladeServiceProvider"
+            ],
+            "aliases": {
+                "BootstrapBlade": "Enigma\\BootstrapBlade\\BootstrapBladeFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable":true
+}
