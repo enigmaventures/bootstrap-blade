@@ -33,6 +33,7 @@ Note: Some attributes might also be required for a component to work. Please che
 ## Components
 
 Here's the complete list of all the available components:
+
 (Note: Components not listed here but are present in src/Components are for internal use only.)
 
 + [Accordion](./src/Components/Accordion.php)
