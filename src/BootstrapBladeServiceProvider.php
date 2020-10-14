@@ -11,7 +11,7 @@ class BootstrapBladeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/views', 'bootstrap-blade');
+        $this->loadViewsFrom(__DIR__.'/../resources/views/components', 'bootstrap-blade');
 
         $this->loadViewComponentsAs('bs', [
             Components\Accordion::class,
