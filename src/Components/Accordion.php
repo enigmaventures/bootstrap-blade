@@ -12,13 +12,6 @@ class Accordion extends BootstrapComponent
     public string $class = 'accordion';
 
     /**
-     * The accordion id.
-     *
-     * @var string
-     */
-    public string $id;
-
-    /**
      * Create a new component instance.
      *
      * @param string $id
