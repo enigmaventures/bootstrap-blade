@@ -7,9 +7,9 @@
     </ol>
     @endif
 
-    <x-carousel-inner>
+    <div class="carousel-inner" role="listbox">
         {{ $slot }}
-    </x-carousel-inner>
+    </div>
 
     @if ($controls)
     <x-carousel-previous :href="$hash($id)"/>
