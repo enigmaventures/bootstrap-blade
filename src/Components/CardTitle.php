@@ -10,14 +10,4 @@ class CardTitle extends BootstrapComponent
      * @var string
      */
     public string $class = 'card-title';
-
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\View\View|\Closure|string
-     */
-    public function render()
-    {
-        return view('bootstrap-blade::card-title');
-    }
 }
