@@ -62,7 +62,6 @@ Here's the complete list of all the available components:
 + [CardTitle](./src/Components/CardTitle.php)
 + [Carousel](./src/Components/Carousel.php)
 + [CarouselCaption](./src/Components/CarouselCaption.php)
-+ [CarouselIndicators](./src/Components/CarouselIndicators.php)
 + [CarouselInner](./src/Components/CarouselInner.php)
 + [CarouselItem](./src/Components/CarouselItem.php)
 + [CarouselNext](./src/Components/CarouselNext.php)
