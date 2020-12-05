@@ -1,5 +1,5 @@
 <div class="{{ $containerClass }}">
-    <input {{ $attributes->merge($componentAttributes()) }}/>
     <label for="{{ $id }}" class="{{ $labelClass }}">{{ $label }}</label>
+    <input {{ $attributes->merge($componentAttributes()) }}/>
     {{ $slot }}
 </div>
