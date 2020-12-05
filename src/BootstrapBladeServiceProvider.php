@@ -42,7 +42,6 @@ class BootstrapBladeServiceProvider extends ServiceProvider
             Components\CarouselCaption::class,
             Components\CarouselItem::class,
             Components\CarouselNext::class,
-            Components\CarouselPrevious::class,
             Components\CheckboxField::class,
             Components\CloseIcon::class,
             Components\Collapse::class,
