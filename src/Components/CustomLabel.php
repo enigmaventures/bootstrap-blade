@@ -39,6 +39,6 @@ class CustomLabel extends BootstrapComponent
             $this->replaceClass('custom-control-label', 'custom-file-label');
         }
 
-        return view('bootstrap-blade::custom-label');
+        return view()->first(["bootstrap-blade::custom-label", "bootstrap-blade::label"]);
     }
 }
