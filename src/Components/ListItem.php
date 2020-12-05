@@ -45,5 +45,7 @@ class ListItem extends BootstrapComponent
             $this->addClass('disabled');
             $this->addAriaAttribute('aria-disabled', 'true');
         }
+
+        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", "bootstrap-blade::list-item"]);
     }
 }
