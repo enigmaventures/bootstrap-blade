@@ -31,16 +31,4 @@ class CustomFile extends CustomForm
      * @var string
      */
     public string $labelClass = 'custom-file-label';
-
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\View\View|\Closure|string
-     */
-    public function render()
-    {
-        parent::render();
-
-        return view('bootstrap-blade::custom-file');
-    }
 }
