@@ -47,6 +47,16 @@ class BootstrapComponent extends Component
     }
 
     /**
+     * Get the component's base name.
+     *
+     * @return string
+     */
+    protected function componentBaseName() : string
+    {
+        return Str::of(class_bassname($this))->kebab()->lower();
+    }
+
+    /**
      * Add the given class to the component's class names.
      *
      * @param string $class
