@@ -66,5 +66,7 @@ class Link extends BootstrapComponent
             $this->addAriaAttribute('aria-disabled', 'true');
             $this->addHtmlAttribute('tabindex', '-1');
         }
+
+        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", "bootstrap-blade::link"]);
     }
 }
