@@ -13,7 +13,7 @@ class BootstrapBladeServiceProvider extends ServiceProvider
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views/components', 'bootstrap-blade');
 
-        $this->loadViewComponentsAs('bs', [
+        $this->loadViewComponentsAs('', [
             Components\Accordion::class,
             Components\Alert::class,
             Components\AlertLink::class,
