@@ -24,16 +24,4 @@ class CustomRange extends CustomForm
      * @var string
      */
     public string $labelClass = '';
-
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\View\View|\Closure|string
-     */
-    public function render()
-    {
-        parent::render();
-
-        return view('bootstrap-blade::custom-range');
-    }
 }
