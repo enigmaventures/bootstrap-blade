@@ -233,5 +233,6 @@ class BootstrapComponent extends Component
      */
     public function render()
     {
+        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", "bootstrap-blade::default"]);
     }
 }
