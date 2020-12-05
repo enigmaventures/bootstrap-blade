@@ -1,32 +1,32 @@
 @if (session($type))
 @switch ($type)
     @case ('success')
-        <x-bs-alert variant="success" dismissible>
+        <x-alert variant="success" dismissible>
             {{ $text ?: $slot->__toString() ?: session('success') }}
-        </x-bs-alert>
+        </x-alert>
         @break
 
     @case ('info')
-        <x-bs-alert variant="info" dismissible>
+        <x-alert variant="info" dismissible>
             {{ $text ?: $slot->__toString() ?: session('info') }}
-        </x-bs-alert>
+        </x-alert>
         @break
 
     @case ('warning')
-        <x-bs-alert variant="warning" dismissible>
+        <x-alert variant="warning" dismissible>
             {{ $text ?: $slot->__toString() ?: session('warning') }}
-        </x-bs-alert>
+        </x-alert>
         @break
 
     @case ('error')
-        <x-bs-alert variant="danger" dismissible>
+        <x-alert variant="danger" dismissible>
             {{ $text ?: $slot->__toString() ?: session('danger') }}
-        </x-bs-alert>
+        </x-alert>
         @break
 
     @default
-        <x-bs-alert variant="success" dismissible>
+        <x-alert variant="success" dismissible>
             {{ $text ?: $slot->__toString() ?: session($type) }}
-        </x-bs-alert>
+        </x-alert>
 @endswitch
 @endif

@@ -1,5 +1,5 @@
 <form method="{{ $method }}" action="{{ $action }}">
     @csrf
 
-    <x-bs-button type="submit" class="{{ $class }}">{{ $slot }}</x-bs-button>
+    <x-button type="submit" class="{{ $class }}">{{ $slot }}</x-button>
 </form>

@@ -98,11 +98,11 @@ class Nav extends BootstrapComponent
     {
         if ($this->vertical) {
             if (is_bool($this->vertical)) {
-                $this->addClass('flex-bs-column');
+                $this->addClass('flex-column');
             }
 
             if (is_string($this->vertical)) {
-                $this->addClass("flex-bs-column-{$this->vertical}");
+                $this->addClass("flex-column-{$this->vertical}");
             }
         }
 

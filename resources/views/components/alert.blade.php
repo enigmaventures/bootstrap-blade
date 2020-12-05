@@ -2,6 +2,6 @@
     {{ $slot }}
 
     @if($dismissible)
-    <x-bs-close-icon data-dismiss="alert"/>
+    <x-close-icon data-dismiss="alert"/>
     @endif
 </div>

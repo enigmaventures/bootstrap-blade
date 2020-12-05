@@ -1,3 +1,3 @@
 <button {{ $attributes->merge($componentAttributes()) }}>
-    <x-bs-navbar-toggler-icon/>
+    <x-navbar-toggler-icon/>
 </button>
