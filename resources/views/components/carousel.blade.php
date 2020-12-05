@@ -12,7 +12,11 @@
     </div>
 
     @if ($controls)
-    <x-carousel-previous :href="$hash($id)"/>
+    <a class="carousel-control-prev" href="{{ $hash($id) }}">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+
     <x-carousel-next :href="$hash($id)"/>
     @endif
 </div>
