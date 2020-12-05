@@ -23,6 +23,6 @@ class ButtonToolbar extends BootstrapComponent
             'aria-label' => 'Button toolbar'
         ]);
 
-        return view('bootstrap-blade::button-toolbar');
+        return view()->first(["bootstrap-blade::button-group", "bootstrap-blade::default"]);
     }
 }
