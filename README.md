@@ -64,7 +64,6 @@ Here's the complete list of all the available components:
 + [CarouselCaption](./src/Components/CarouselCaption.php)
 + [CarouselItem](./src/Components/CarouselItem.php)
 + [CarouselNext](./src/Components/CarouselNext.php)
-+ [CarouselPrevious](./src/Components/CarouselPrevious.php)
 + [CheckboxField](./src/Components/CheckboxField.php)
 + [CloseIcon](./src/Components/CloseIcon.php)
 + [Collapse](./src/Components/Collapse.php)
