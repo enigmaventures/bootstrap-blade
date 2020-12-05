@@ -17,15 +17,15 @@ composer require enigma/bootstrap-blade
 ## Usage
 
 ``` php
-<x-bs-component-kebab-name>
+<x-component-kebab-name>
     Content goes here...
-</x-bs-component-kebab-name>
+</x-component-kebab-name>
 ```
 
 For self-closing components, you can also write them like this:
 
 ``` php
-<x-bs-component-kebab-name/>
+<x-component-kebab-name/>
 ```
 
 Note: Some attributes might also be required for a component to work. Please check the corresponding component class.
