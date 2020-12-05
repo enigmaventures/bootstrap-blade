@@ -1,6 +1,10 @@
 <div {{ $attributes->merge($componentAttributes()) }}>
     @if ($indicators)
-    <x-carousel-indicators :target="$hash($id)" :items="$items"/>
+    <ol {{ $attributes->merge($componentAttributes()) }}>
+        @foreach (range(0, $items - 1) as $item)
+        <li data-target="{{ $hash($id) }}" data-slide-to="{{ $loop->index }}"@if ($loop->first) class="active"@endif/>
+        @endforeach
+    </ol>
     @endif
 
     <x-carousel-inner>
