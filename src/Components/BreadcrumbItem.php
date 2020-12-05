@@ -19,10 +19,9 @@ class BreadcrumbItem extends ListItem
     public function render()
     {
         if ($this->active) {
-            $this->addClass('active');
             $this->addAriaAttribute('aria-current', 'page');
         }
 
-        return view('bootstrap-blade::breadcrumb-item');
+        parent::render();
     }
 }
