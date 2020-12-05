@@ -71,6 +71,6 @@ class ButtonGroup extends BootstrapComponent
             $this->replaceClass('btn-group', 'btn-group-vertical');
         }
 
-        return view('bootstrap-blade::button-group');
+        return view()->first(["bootstrap-blade::button-group", "bootstrap-blade::default"]);
     }
 }
