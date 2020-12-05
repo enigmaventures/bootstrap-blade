@@ -40,7 +40,6 @@ class BootstrapBladeServiceProvider extends ServiceProvider
             Components\CardTitle::class,
             Components\Carousel::class,
             Components\CarouselCaption::class,
-            Components\CarouselInner::class,
             Components\CarouselItem::class,
             Components\CarouselNext::class,
             Components\CarouselPrevious::class,
