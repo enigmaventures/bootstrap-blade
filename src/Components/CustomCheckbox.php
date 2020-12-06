@@ -92,6 +92,6 @@ class CustomCheckbox extends CustomForm
 
         $this->markAsChecked();
 
-        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", "bootstrap-blade::custom-checkbox"]);
+        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", 'bootstrap-blade::custom-checkbox']);
     }
 }
