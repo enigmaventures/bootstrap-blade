@@ -37,6 +37,6 @@ class Embed extends BootstrapComponent
     {
         $this->addClass("embed-responsive-{$aspectRatio}");
 
-        return view('bootstrap-blade::embed');
+        return view()->first(['bootstrap-blade::embed', 'bootstrap-blade::default']);
     }
 }
