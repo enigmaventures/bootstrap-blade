@@ -50,14 +50,4 @@ class InputGroupAddon extends BootstrapComponent
             return 'input-group-prepend';
         }
     }
-
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\View\View|\Closure|string
-     */
-    public function render()
-    {
-        return view('bootstrap-blade::input-group-addon');
-    }
 }
