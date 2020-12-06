@@ -21,6 +21,6 @@ class Modal extends BootstrapComponent
         $this->addHtmlAttribute('tabindex', '-1');
         $this->addAriaAttribute('role', 'dialog');
 
-        return view('bootstrap-blade::modal');
+        return view()->first(['bootstrap-blade::modal', 'bootstrap-blade::default']);
     }
 }
