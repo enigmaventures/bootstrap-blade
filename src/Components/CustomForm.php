@@ -106,6 +106,6 @@ class CustomForm extends CustomInput
 
         $this->setupContainerClass();
 
-        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", "bootstrap-blade::custom-form-field"]);
+        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", 'bootstrap-blade::custom-form-field']);
     }
 }
