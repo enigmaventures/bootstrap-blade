@@ -39,6 +39,6 @@ class Image extends BootstrapComponent
             $this->addClass('img-thumbnail');
         }
 
-        return view('bootstrap-blade::image');
+        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", 'bootstrap-blade::image']);
     }
 }
