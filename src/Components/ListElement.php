@@ -26,4 +26,14 @@ class ListElement extends BootstrapComponent
     {
         $this->ordered = $ordered;
     }
+
+    /**
+     * Get the view / contents that represent the component.
+     *
+     * @return \Illuminate\View\View|\Closure|string
+     */
+    public function render()
+    {
+        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", 'bootstrap-blade::list']);
+    }
 }
