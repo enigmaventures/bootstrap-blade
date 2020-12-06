@@ -39,6 +39,6 @@ class InputGroup extends BootstrapComponent
             $this->addClass("input-group-{$this->size}");
         }
 
-        return view('bootstrap-blade::input-group');
+        return view()->first(['bootstrap-blade::input-group', 'bootstrap-blade::default']);
     }
 }
