@@ -39,6 +39,6 @@ class Jumbotron extends BootstrapComponent
             $this->addClass('jumbotron-fluid');
         }
 
-        return view('bootstrap-blade::jumbotron');
+        return view()->first(['bootstrap-blade::jumbotron', 'bootstrap-blade::default']);
     }
 }
