@@ -65,6 +65,6 @@ class ModalDialog extends BootstrapComponent
             $this->addClass("modal-{$this->size}");
         }
 
-        return view('bootstrap-blade::modal-dialog');
+        return view()->first(['bootstrap-blade::modal-dialog', 'bootstrap-blade::default']);
     }
 }
