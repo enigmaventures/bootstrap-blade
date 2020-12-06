@@ -2,7 +2,7 @@
 
 namespace Enigma\BootstrapBlade\Components;
 
-class InlineListItem extends BootstrapComponent
+class InlineListItem extends ListItem
 {
     /**
      * The component's class names.
