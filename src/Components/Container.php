@@ -39,6 +39,6 @@ class Container extends BootstrapComponent
             $this->replaceClass('container', "container-{$this->grid}");
         }
 
-        return view()->first(["bootstrap-blade::container", "bootstrap-blade::default"]);
+        return view()->first(['bootstrap-blade::container', 'bootstrap-blade::default']);
     }
 }
