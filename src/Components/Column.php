@@ -22,6 +22,6 @@ class Column extends Grid
 
         $this->setupOffsetClasses('offset');
 
-        return view()->first(["bootstrap-blade::column", "bootstrap-blade::default"]);
+        return view()->first(['bootstrap-blade::column', 'bootstrap-blade::default']);
     }
 }
