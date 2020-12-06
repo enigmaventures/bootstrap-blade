@@ -10,14 +10,4 @@ class InputGroupPrepend extends BootstrapComponent
      * @var string
      */
     public string $class = 'input-group-prepend';
-
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\View\View|\Closure|string
-     */
-    public function render()
-    {
-        return view('bootstrap-blade::input-group-prepend');
-    }
 }
