@@ -10,14 +10,4 @@ class FigureCaption extends BootstrapComponent
      * @var string
      */
     public string $class = 'figure-caption';
-
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\View\View|\Closure|string
-     */
-    public function render()
-    {
-        return view('bootstrap-blade::figure-caption');
-    }
 }
