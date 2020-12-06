@@ -154,5 +154,7 @@ class FormField extends Input
         $this->setupContainerClass();
 
         $this->setupGridClasses();
+
+        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", "bootstrap-blade::form-field"]);
     }
 }
