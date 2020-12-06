@@ -69,6 +69,6 @@ class CustomRadio extends CustomCheckbox
 
         $this->markAsChecked();
 
-        return view()->first(["bootstrap-blade::custom-radio", "bootstrap-blade::custom-checkbox"]);
+        return view()->first(['bootstrap-blade::custom-radio', 'bootstrap-blade::custom-checkbox']);
     }
 }
