@@ -56,6 +56,6 @@ class Feedback extends BootstrapComponent
             }
         }
 
-        return view('bootstrap-blade::feedback');
+        return view()->first(['bootstrap-blade::feedback', 'bootstrap-blade::default']);
     }
 }
