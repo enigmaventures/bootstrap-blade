@@ -136,6 +136,6 @@ class CustomInput extends BootstrapComponent
             $this->replaceClass('custom-control-input', 'custom-range');
         }
 
-        return view()->first(["bootstrap-blade::custom-input", "bootstrap-blade::input"]);
+        return view()->first(['bootstrap-blade::custom-input', 'bootstrap-blade::input']);
     }
 }
