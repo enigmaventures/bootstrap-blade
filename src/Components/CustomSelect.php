@@ -104,6 +104,6 @@ class CustomSelect extends CustomInput
             }
         }
 
-        return view()->first(["bootstrap-blade::custom-select", "bootstrap-blade::select"]);
+        return view()->first(['bootstrap-blade::custom-select', 'bootstrap-blade::select']);
     }
 }
