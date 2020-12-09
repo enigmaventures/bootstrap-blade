@@ -110,7 +110,6 @@ class BootstrapBladeServiceProvider extends ServiceProvider
             Components\NavbarNav::class,
             Components\NavbarText::class,
             Components\NavbarToggler::class,
-            Components\NavbarTogglerIcon::class,
             Components\NavItem::class,
             Components\NavItemLink::class,
             Components\NavLink::class,
