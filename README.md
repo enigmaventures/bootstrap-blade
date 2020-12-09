@@ -132,7 +132,6 @@ Here's the complete list of all the available components:
 + [NavbarNav](./src/Components/NavbarNav.php)
 + [NavbarText](./src/Components/NavbarText.php)
 + [NavbarToggler](./src/Components/NavbarToggler.php)
-+ [NavbarTogglerIcon](./src/Components/NavbarTogglerIcon.php)
 + [NavItem](./src/Components/NavItem.php)
 + [NavItemLink](./src/Components/NavItemLink.php)
 + [NavLink](./src/Components/NavLink.php)
