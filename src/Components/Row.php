@@ -20,6 +20,6 @@ class Row extends Grid
     {
         $this->setupGridClasses('row-cols');
 
-        return view('bootstrap-blade::row');
+        return view()->first(['bootstrap-blade::row', 'bootstrap-blade::default']);
     }
 }
