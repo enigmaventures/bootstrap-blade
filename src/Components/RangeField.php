@@ -17,16 +17,4 @@ class RangeField extends FormField
      * @var string
      */
     public string $type = 'range';
-
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\View\View|\Closure|string
-     */
-    public function render()
-    {
-        parent::render();
-
-        return view('bootstrap-blade::range-field');
-    }
 }
