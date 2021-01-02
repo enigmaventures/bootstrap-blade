@@ -158,6 +158,6 @@ class CheckboxField extends FormField
 
         $this->markAsChecked();
 
-        return view('bootstrap-blade::checkbox-field');
+        return view()->first(["bootstrap-blade::{$this->componentBaseName()}", "bootstrap-blade::checkbox-field"]);
     }
 }
