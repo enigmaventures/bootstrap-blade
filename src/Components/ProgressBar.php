@@ -73,6 +73,6 @@ class ProgressBar extends BootstrapComponent
             $this->addClass('progress-bar-animated');
         }
 
-        return view('bootstrap-blade::progress-bar');
+        return view()->first(['bootstrap-blade::progress-bar', 'bootstrap-blade::default']);
     }
 }
