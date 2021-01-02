@@ -24,6 +24,6 @@ class Toast extends BootstrapComponent
             'aria-atomic' => 'true'
         ]);
 
-        return view('bootstrap-blade::toast');
+        return view()->first(['bootstrap-blade::toast', 'bootstrap-blade::default']);
     }
 }
