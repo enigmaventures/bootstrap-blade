@@ -53,7 +53,7 @@ class BootstrapComponent extends Component
      */
     protected function componentBaseName() : string
     {
-        return Str::of($this)->classBaseName()->kebab()->lower();
+        return Str::of(get_class($this))->classBaseName()->kebab()->lower();
     }
 
     /**
